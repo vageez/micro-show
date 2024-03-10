@@ -1,30 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 
-HOST
-https://micro-host-self.vercel.app/
-
-ROTATOR
-https://micro-rotator.vercel.app/
-
-GRID
-https://micro-grid.vercel.app/
-
-LANDING
-https://micro-landing-one.vercel.app/
-
-LIVE
-https://micro-live.vercel.app/
-
-SHOW
-https://micro-show.vercel.app/
-
-SEARCH
-https://micro-search.vercel.app/
-
-VIDEO
-https://micro-video.vercel.app/
-
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
