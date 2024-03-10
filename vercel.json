@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/show/(.*)",
+            "destination": "/$1"
+        }
+    ]
+  }
